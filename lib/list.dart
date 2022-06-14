@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:json_demo_3/comment.dart';
-import 'main.dart';
 
 class CommentList extends StatelessWidget {
   CommentList({Key? key, required this.comment}) : super(key: key);
