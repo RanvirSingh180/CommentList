@@ -57,6 +57,7 @@ class _CommentDataState extends State<CommentData> {
             return const Center(child: CircularProgressIndicator());
           }
           List<Comments> comments = parseJson(snapshot.data);
+          // ignore: unnecessary_null_comparison
           if (comments!=null) {
             return CommentList(comment: comments);
           } else {
