@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:json_demo_3/comment.dart';
 
+// ignore: must_be_immutable
 class CommentList extends StatelessWidget {
   CommentList({Key? key, required this.comment}) : super(key: key);
   List<Comments> comment = [];
